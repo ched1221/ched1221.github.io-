@@ -1,65 +1,20 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>WEB1 - html</title>
-<meta charset="utf=8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Something</title>
+    <link href="index.css" rel = "stylesheet" type="text/css" />
 </head>
 <body>
-<h1><a href="index.html">witness</h1><a>
-<ul>
-<ol>
-  <li><a href="1.html">Mr.jung</li><a>
-  <li><a href="2.html">Mr.kim</li><a>
-  <li><a href="3.html">Mr.park</li><a>
-</ol>
-</ul>
-<h2>Mr.KO </h2>
-<p> Ko Min-gyu enjoys watching <u> ssni-886 </u> of <strong>In-Ho Jung's recommendation.</strong>
-The woman of Ko Min-gyu is Sannomiya Tsubaki.</p>
-<img src="coding.jpg" width="50%">
-<p></p style="margin-top:30px;">
-
-<a href="https://www.avdbs.com/menu/actor.php?actor_idx=6421">Tsubaki Sannomiya</a>is born in 1998.<br>
-his face doesn't move well because of plastic surgery.<br>
-However, Ko Kohn-gyu said,'If a woman is pretty, I'm so happy.'
-<p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4kxC3WDZsps" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</p>
-<p>
-  <div id="disqus_thread"></div>
-  <script>
-      /**
-      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-      /*
-      var disqus_config = function () {
-      this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-      this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-      };
-      */
-      (function() { // DON'T EDIT BELOW THIS LINE
-      var d = document, s = d.createElement('script');
-      s.src = 'https://web-1-zxpmu79gmp.disqus.com/embed.js';
-      s.setAttribute('data-timestamp', +new Date());
-      (d.head || d.body).appendChild(s);
-      })();
-  </script>
-  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-</P>
-<p>
-  <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/5fb909df920fc91564c94088/default';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->>
-</p>
-
+    <div class = "js-clock">
+        <h1 class = js-title>00:00</h1>
+    </div>
+    <form class="js-form form">
+        <input type = "text" placeholder="What is your name?">
+    </form>
+    <h4 class = " js-greetings greetings"></h4>
+    <script src = "clock.js"></script>
+    <script src = "greeting.js"></script>
+</body>
 </html>
